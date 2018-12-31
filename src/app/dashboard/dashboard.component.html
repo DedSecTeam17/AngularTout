@@ -1,0 +1,15 @@
+
+
+<div class="card">
+  <div class="card-body">
+
+    <div class="row" >
+      <div class="col-md-3 " *ngFor="let hero of heroes; let i=index">
+        <a routerLink="/dashboard/{{hero.id}}" class="gray-grid " *ngIf="i<=3"   >
+          <span>{{hero.name}}</span>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>

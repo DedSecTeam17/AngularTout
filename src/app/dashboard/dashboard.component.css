@@ -1,0 +1,12 @@
+.gray-grid {
+    border: lightgrey 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.gray-grid:hover{
+    background-color: #336699;
+    color: white;
+    cursor: pointer;
+}

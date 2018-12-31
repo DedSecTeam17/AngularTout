@@ -1,0 +1,26 @@
+<div class="container-fluid">
+    <div class="row">
+
+
+
+        <div class="col-md-2 offset-10">
+            <ul class="list-group">
+                <li class="list-group-item" *ngFor="let hero of heroes"
+                  >
+
+                    <a  class="nav-link"  routerLink="/dashboard/{{hero.id}}">
+                        <span class="badge badge-danger">{{hero.id}}</span>
+                        <small>{{hero.name}}</small>
+                    </a>
+
+
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+
+
+
